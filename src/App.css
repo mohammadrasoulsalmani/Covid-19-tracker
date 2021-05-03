@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+}
+.app{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+.app__dark{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+  background-color: #222222;
+  color: white;
+}
+.app__header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 30px;
+}
+
+
+body{
+  background-color: #f5f6fa;
+}
+
+.app__right{
+  margin-top: 30px;
+}
+
+.app__left{
+  flex: 0.8;
+}
+
+.app__stats{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+@media (max-width: 990px){
+  .app{
+    flex-direction: column;
+  }
+}
